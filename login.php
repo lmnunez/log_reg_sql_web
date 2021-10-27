@@ -3,7 +3,7 @@ $host = "localhost";
 $port = "5432";
 $dbname = "persona";
 $user = "postgres";
-$password = "postgres"; 
+$password = "123456"; 
 $connection_string = "host={$host} port={$port} dbname={$dbname} user={$user} password={$password} ";
 $dbconn = pg_connect($connection_string);
 if(isset($_POST['submit'])&&!empty($_POST['submit'])){
